@@ -386,3 +386,24 @@ header{
     font-size: 20px;
     cursor: pointer;
 }
+/* Card 4 End */
+.card5{
+      width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    padding: 80px 70px;
+}
+.card5head{
+        width: 100%;
+        border-bottom: 2px solid ;
+        padding: 7px 0px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content: start;
+        gap: 20px;
+}
