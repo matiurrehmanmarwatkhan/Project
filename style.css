@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topsection{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    background-image: url(image/top\ section\ pic.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: transparent;
+    color: white;
+    justify-content: space-evenly;
+}
+.loge{
+    width: 60%;
+    height: 70px;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+.loge img{
+    width: 30px;
+    height: 30px;
+}
+.head1 button{
+    padding: 7px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.head1 button:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+.loge a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.hero{
+    position: absolute;
+    top: 40%;
+    right:  60%;
+    width: 600px;
+    height: 300px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.hero button{
+    padding: 16px 20px;
+    border-radius: 12px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    gap: 3px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 187px;
+    transition: transform 1s;
+    height: 64px;
+}
+.hero button:hover{
+    transform: scale(1.5);
+    /* background-color: white; */
+    /* color: black; */
+    /* cursor: pointer; */
+}
+/*  */
+/* Main Card Start */
+.card{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 80px 70px;
+}
+.shop{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+}
+.shop1{
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid;
+}
+.product{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    gap: 563px;
+    padding-right: 10px;
+}
+.pchild{
+    width: 100%;
+    height: 55px;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.pchild1 input{
+    width: 281px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 15px;
+    /* border: none; */
+    padding: 10px;
+}
+.pchild1 input:focus{
+    outline: none;
+    /* border: 2px solid black; */
+}
+.shop2{
+    width: 100%;
+    border-bottom: 2px solid ;
+    padding: 7px 0px;
+    display: flex;
+    background-color: white;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.shop3 button{
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 15px 15px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+.shop3 .btn1{
+      font-size: 20px;
+    border: none;
+      border-radius: 8px;
+    padding: 15px 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.cards{
+    display: flex;
+    border-radius: 4px;
+    gap: 20px;
+}
+.cards .cards1{
+    border-radius: 4px;
+}
+.read{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+/* Main Card End */
+/* First Cards */
+.card1{
+      width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 80px 70px;
+}
+.chead{
+     width: 100%;
+    border-bottom: 2px solid ;
+    padding: 7px 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: start;
+    gap: 20px;
+}
+.chead1{
+    width: 90%;
+    height: 83.4vh;
+    display: flex;
+    border-radius: 4px;
+    gap: 20px; 
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.schild1 img{
+    border-radius: 4px;
+}
+.cheadchild{
+    width: 717px;
+    height: 715px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.cheadchild1{
+    width: 30%;
+    height: 715px;
+}
+.schild1{
+    transition: transform 1s;
+}
+.schild1:hover{
+    transform: scale(1.05);
+}
+/* First Cards End */
+/* Second Cards start */
+.card2{
+      width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #ffffff;
+    padding: 80px 70px;
+}
+.card2head{
+        width: 100%;
+        border-bottom: 2px solid ;
+        padding: 7px 0px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content: start;
+        gap: 20px;
+}
+.card2head1{
+    width: 90%;
+    height: 83.4vh;
+    display: flex;
+    border-radius: 4px;
+    margin-left: 70px;
+    gap: 50px; 
+    padding: 50px 50px;
+}
+.headscription{
+    width: 50%;
+    height: 715px;
+}
+.headscription p{
+    font-size: 20px;
+    line-height: 1.6;
+}
+.head2img{
+    width: 50%;
+    height: 715px;
+} 
+/* Second Card End */
+/* Third Card End */
+.card3{
+      width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #ffffff;
+    padding: 80px 70px;
+}
+.card3head{
+        width: 100%;
+        border-bottom: 2px solid ;
+        padding: 7px 0px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content: start;
+        gap: 20px;
+}
+.card3head1{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    /* margin-left: 70px; */
+    gap: 30px; 
+    padding: 80px 20px;
+}
+.cardh1{
+    width: 280px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.socail{
+    display: flex;
+    gap: 10px;
+}
+/* Cards third end */
+/* Fourth Card Start */
+.card4{
+      width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #ffffff;
+    padding: 80px 70px;
+}
+.card4head{
+        width: 100%;
+        border-bottom: 2px solid ;
+        padding: 7px 0px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content: start;
+        gap: 20px;
+}
+.card4head1{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 4px;
+    /* margin-left: 70px; */
+    gap: 30px; 
+    padding: 80px 20px;
+}
+.card4head2{
+    width: 50%;
+    height: 621px;
+    gap: 20px;
+}
+.card4child{
+    width: 50%;
+    height: 621px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
